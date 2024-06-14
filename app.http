@@ -1,0 +1,23 @@
+
+
+POST http://localhost:5500/product/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "price": 99.99,
+  "description": "A new product has been  added "
+}
+
+####
+
+GET http://localhost:5500/product/products/search?description=new
+
+####
+
+GET http://localhost:5500/product/products/paginate?page=1&limit=10
+
+#####
+
+GET http://localhost:5500/product/products/filter?minPrice=0&maxPrice=100&productName=example
+
