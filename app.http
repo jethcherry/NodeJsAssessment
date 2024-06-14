@@ -4,7 +4,7 @@ POST http://localhost:5500/product
 Content-Type: application/json
 
 {
-  "name": "New Product",
+  "name": "Smart Tv Hisense 60' ",
   "price": 99.99,
   "description": "A new product has been  added "
 }
